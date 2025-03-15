@@ -42,6 +42,8 @@ def exibir_subtitulo(texto):
     print()    
 
 def cadastrar_novo_restaurante():
+    '''Essa função é responsável por cadastrar um novo restaurante'''
+
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar:')
     categoria = input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: ')
@@ -108,6 +110,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-    #modulo4 aula4
+ 
+
     
     
